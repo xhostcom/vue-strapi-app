@@ -14,10 +14,9 @@
       "required": true,
       "unique": true
     },
-    "products": {
-      "collection": "product",
-      "via": "categories",
-      "dominant": true
+    "articles": {
+      "via": "category",
+      "collection": "article"
     }
   }
 }

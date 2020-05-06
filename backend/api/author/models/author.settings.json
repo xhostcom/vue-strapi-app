@@ -29,12 +29,8 @@
       "plugin": "upload",
       "required": false
     },
-    "posts": {
-      "collection": "post"
-    },
-    "post": {
-      "via": "author",
-      "model": "post"
+    "article": {
+      "model": "article"
     }
   }
 }
