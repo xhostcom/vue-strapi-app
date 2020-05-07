@@ -1,4 +1,4 @@
-query Articles {
+query Articles {  
   articles {
     id
     title

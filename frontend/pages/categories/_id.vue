@@ -1,20 +1,22 @@
-<template>
+<template>  
   <div>
-   <client-only>
+  <client-only>
     <div class="uk-section">
       <div class="uk-container uk-container-large">
         <h1>{{ category.name }}</h1>
+
         <Articles :articles="category.articles || []"></Articles>
+
       </div>
     </div>
   </client-only>
   </div>
 </template>
-<script>
-import articlesQuery from '~/apollo/queries/article/articles-categories'
+<script>  
+import articlesQuery from '~/apollo/queries/article/articles-categories'  
 import Articles from '~/components/Articles'
 
-export default {
+export default {  
   data() {
     return {
       category: []
@@ -33,4 +35,4 @@ export default {
     }
   }
 }
-</script>
+</script>  

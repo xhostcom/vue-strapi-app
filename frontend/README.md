@@ -1,8 +1,6 @@
 # frontend
 
-Vue front  end  for the Strapi api/cms
-
-> My super Nuxt.js project
+> My fabulous Nuxt.js project
 
 ## Build Setup
 

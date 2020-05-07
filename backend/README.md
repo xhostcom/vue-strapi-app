@@ -1,3 +1,3 @@
 # Strapi application
 
-Back end api.
+A quick description of your strapi application

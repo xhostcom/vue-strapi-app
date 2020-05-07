@@ -1,8 +1,8 @@
 
 export default {
-  env: {
-    strapiBaseUri: process.env.API_URL || "http://localhost:1337"
-  },
+  env: {  
+  strapiBaseUri: process.env.API_URL || "http://localhost:1337"
+},
   mode: 'universal',
   /*
   ** Headers of the page
@@ -26,17 +26,17 @@ export default {
   /*
   ** Global CSS
   */
- css: [
-  'uikit/dist/css/uikit.min.css',
-  'uikit/dist/css/uikit.css',
-  '@assets/css/main.css'
-],
+  css: [
+    'uikit/dist/css/uikit.min.css',
+    'uikit/dist/css/uikit.css',
+    '@assets/css/main.css'
+  ],
   /*
   ** Plugins to load before mounting the App
   */
- plugins: [
-  { src: '~/plugins/uikit.js', ssr: false }
-],
+  plugins: [
+     { src: '~/plugins/uikit.js', ssr: false }
+  ],
   /*
   ** Nuxt.js dev-modules
   */
@@ -51,18 +51,18 @@ export default {
     '@nuxtjs/pwa',
   ],
   apollo: {
-    clientConfigs: {
-      default: {
-        httpEndpoint: process.env.BACKEND_URL || "http://localhost:1337/graphql"
-      }
+  clientConfigs: {
+    default: {
+      httpEndpoint: process.env.BACKEND_URL || "http://localhost:1337/graphql"
     }
-  },
-  markdownit: {
+  }
+},
+markdownit: {  
     preset: 'default',
     linkify: true,
     breaks: true,
     injected: true
-  },
+},
   /*
   ** Build configuration
   */

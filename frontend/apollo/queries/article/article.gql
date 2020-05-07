@@ -1,4 +1,4 @@
-query Articles($id: ID!) {
+query Articles($id: ID!) {  
   article(id: $id) {
     id
     title

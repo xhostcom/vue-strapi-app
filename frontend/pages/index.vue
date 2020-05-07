@@ -1,9 +1,9 @@
-<template>
+<template>  
   <div>
 
     <div class="uk-section">
       <div class="uk-container uk-container-large">
-        <h1>Nuxt Graphql CMS</h1>
+        <h1>Vue Graphql CMS</h1>
 
         <Articles :articles="articles"></Articles>
 
@@ -13,11 +13,11 @@
   </div>
 </template>
 
-<script>
-import articlesQuery from '~/apollo/queries/article/articles'
+<script>  
+import articlesQuery from '~/apollo/queries/article/articles'  
 import Articles from '~/components/Articles'
 
-export default {
+export default {  
   data() {
     return {
       articles: [],
