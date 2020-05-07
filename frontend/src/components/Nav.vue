@@ -4,7 +4,7 @@
       <div class="uk-navbar-left">
         <ul class="uk-navbar-nav">
           <li>
-            <a href="/">Vue CMS </a>
+            <a href="/">Vue UIKit CMS</a>
           </li>
         </ul>
       </div>
@@ -24,8 +24,7 @@
     </nav>
   </div>
 </template>
-
-<script>
+ <script>
 import gql from "graphql-tag";
 
 export default {
