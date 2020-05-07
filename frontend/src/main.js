@@ -1,8 +1,6 @@
 import Vue from "vue";
 import App from "./App.vue";
-import router from './router'
-import "./index.js";
-import axios from "axios";
+import router from './router';
 import VueApollo from "vue-apollo";
 import apolloClient from "./vue-apollo";
 
@@ -12,14 +10,10 @@ const apolloProvider = new VueApollo({
   defaultClient: apolloClient
 });
 
-Vue.prototype.$http = axios;
-Vue.prototype.axios = axios;
-
 Vue.config.productionTip = false
 
 new Vue({
   apolloProvider,
   router,
-  axios,
   render: h => h(App),
 }).$mount('#app')
