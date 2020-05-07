@@ -1,5 +1,5 @@
 {
-  "name": "vue-strapi-app",
+  "name": "backend",
   "private": true,
   "version": "0.1.0",
   "description": "A Strapi application",
@@ -12,23 +12,23 @@
   "devDependencies": {},
   "dependencies": {
     "knex": "<0.20.0",
-    "mysql": "latest",
-    "strapi": "3.0.0-beta.20.2",
-    "strapi-admin": "3.0.0-beta.20.2",
-    "strapi-connector-bookshelf": "3.0.0-beta.20.2",
-    "strapi-plugin-content-manager": "3.0.0-beta.20.2",
-    "strapi-plugin-content-type-builder": "3.0.0-beta.20.2",
-    "strapi-plugin-email": "3.0.0-beta.20.2",
-    "strapi-plugin-graphql": "3.0.0-beta.20.2",
-    "strapi-plugin-upload": "3.0.0-beta.20.2",
-    "strapi-plugin-users-permissions": "3.0.0-beta.20.2",
-    "strapi-utils": "3.0.0-beta.20.2"
+    "sqlite3": "latest",
+    "strapi": "3.0.0-beta.20.3",
+    "strapi-admin": "3.0.0-beta.20.3",
+    "strapi-connector-bookshelf": "3.0.0-beta.20.3",
+    "strapi-plugin-content-manager": "3.0.0-beta.20.3",
+    "strapi-plugin-content-type-builder": "3.0.0-beta.20.3",
+    "strapi-plugin-email": "3.0.0-beta.20.3",
+    "strapi-plugin-graphql": "3.0.0-beta.20.3",
+    "strapi-plugin-upload": "3.0.0-beta.20.3",
+    "strapi-plugin-users-permissions": "3.0.0-beta.20.3",
+    "strapi-utils": "3.0.0-beta.20.3"
   },
   "author": {
     "name": "A Strapi developer"
   },
   "strapi": {
-    "uuid": "93a8003d-cd16-479e-9e79-67855921085c"
+    "uuid": "a7cc2607-3945-46e9-9bda-abe6c1fed282"
   },
   "engines": {
     "node": ">=10.0.0",
