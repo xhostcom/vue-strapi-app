@@ -6,9 +6,11 @@ Vue front end with Strapi Graphql back end headless CMS, wit Nuxt, UIKit, Apollo
 
 ## Demo
 
+https://xenodochial-hypatia-a8c31e.netlify.app/
 
 ## Repo
 
+https://github.com/xhostcom/vue-strapi-app.git
 
 ## Author
 
@@ -41,6 +43,8 @@ yarn && yarn dev/build
 backend
 
 npm i && npm run dev
+
+And see other Readme for more details
 
 ## License
 
